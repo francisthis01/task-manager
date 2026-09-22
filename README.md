@@ -42,15 +42,15 @@ src/
 
 ### Install and run
 
-npm install
-npm run dev
+- npm install
+- npm run dev
 
 The app will be available at the URL printed in the terminal (typically `http://localhost:5173`).
 
 ### Build for production
 
-npm run build
-npm run preview
+- npm run build
+- npm run preview
 
 ## Notes
 
