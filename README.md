@@ -2,7 +2,7 @@
 
 A simple task management web application built with React and Tailwind CSS, created for the NSS Developer Technical Assignment (Web Development track).
 
-Task data is mocked/static and lives entirely in browser state — there is no backend integration.
+Task data is mocked/static and lives entirely in browser state, there is no backend integration.
 
 ## Features
 
@@ -21,7 +21,6 @@ Task data is mocked/static and lives entirely in browser state — there is no b
 
 ## Project structure
 
-```
 src/
   components/
     Dashboard.jsx    # Task statistics row
@@ -34,7 +33,6 @@ src/
   App.jsx                # Top-level state and layout
   main.jsx                # React entry point
   index.css                # Tailwind directives
-```
 
 ## Getting started
 
@@ -44,21 +42,17 @@ src/
 
 ### Install and run
 
-```bash
 npm install
 npm run dev
-```
 
 The app will be available at the URL printed in the terminal (typically `http://localhost:5173`).
 
 ### Build for production
 
-```bash
 npm run build
 npm run preview
-```
 
 ## Notes
 
-- All task data resets on page refresh, since there is no backend or persistence layer — this matches the assignment's requirement to use mocked/static data only.
+- All task data resets on page refresh, since there is no backend or persistence layer. This matches the assignment's requirement to use mocked/static data only.
 - The layout is responsive: task cards reflow from a 3-column grid on desktop down to a single column on mobile.
